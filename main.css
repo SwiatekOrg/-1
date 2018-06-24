@@ -71,7 +71,6 @@ body{
 #skills{
 	background-color: #333;
 	border-top: 20px solid black;
-	height: 800px;
 	text-align: center;
 	border-bottom: 20px solid gray;
 }
@@ -85,12 +84,15 @@ body{
 #skills #tech{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
 }
 
 .item{
 	height: 250px;
 	width: 300px;
 	margin: 30px;
+	margin-bottom: 100px;
 	flex-flow: column;
 	transition-duration: 0.3s;
 	background-color: white;
