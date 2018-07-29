@@ -37,7 +37,7 @@ body{
 }
 
 #nav ul > li > a:hover{
-	border-top: 4px solid #000
+	border-top: 4px solid #000;
 }
 
 #nav h1{
